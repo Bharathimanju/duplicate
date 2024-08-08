@@ -8,8 +8,22 @@
 } */
 
 
-
-
+.navbar{
+    justify-content: space-around;
+    display: flex;
+    /* backdrop-filter: blur(30px); */
+    background: transparent;
+    
+}
+.navbar ul li  {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 20px;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+}
 .containerss{
     display: flex;
     flex-direction: row; /* Change to column for vertical scrolling */
